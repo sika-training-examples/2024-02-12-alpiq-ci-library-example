@@ -42,4 +42,4 @@ apply:
   when: manual
   allow_failure: false
   only:
-    - master
+    - $CI_DEFAULT_BRANCH
